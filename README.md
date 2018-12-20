@@ -8,12 +8,12 @@ Gentoo Related Distros.)
 
 **https://github.com/TheJumpCloud** main source of packages...
 
-Why Jumpcloud , keeping track of Keys , jumping windows/Linux boxes ,
+Why Jumpcloud , keeping track of Keys , jumping windows/Linux boxes , Makes admin of lots of boxes or users scattered globally or Devboxes rented globally less of a  hell. 
 
-Doin IT Security testing on IOT-arm64 etc having to manage mangle keys to lots
-of boxes get to be a hell. 
 having the ability to drop cronjobs on boxes and build crap in gentoo usefull  via the agent.
+
 Windows choco upgrade all -y @ all the pc's in my house its sweet. 
+
 ## gentoo or sabayon boxes also would be a sweet plus. 
 ## Gentoo: emerge-webrsync && gentoo-update.sh 
 sabayon boxes:  equo up && equo u && emerge-webrsync  (emerge --upgrade mypackage/s if a few one need to build) 
