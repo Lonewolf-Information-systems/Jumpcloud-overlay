@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<repositories version="1.0">
+	<repo priority="50" quality="experimental" status="unofficial">
+		<name>necromancy</name>
+		<description>This repository contains the ebuild from Necrose99 (some are works in progress) </description>
+		<homepage>https://github.com/necrose99/necromancy-overlay</homepage>
+		<owner type="person"><name><![CDATA[Michael Lawrenceit]]></name>
+			 <email>mike@michaellawrenceit.com</email>
+			<!--- necrose99@protonmail.ch   --- for the tinfoil hats encypted email --!>
+			</owner>    
+		source type="git">https://github.com/necrose99/necromancy-overlay</source>
+		<source type="git">git://github.com/necrose99/necromancy-overlay.git</source>
+    		<source type="git">git@github.com:necrose99/necromancy-overlay.git</source>
+		 <feed>https://github.com/necrose99/necromancy-overlay/commits/master.atom</feed>
+	</repo>
+</repositories>

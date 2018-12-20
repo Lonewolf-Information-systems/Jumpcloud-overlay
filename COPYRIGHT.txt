@@ -1,0 +1,11 @@
+Copyright 1999-2014 Gentoo Foundation, 2008-2014 Funtoo Technologies, and
+multiple authors. Distributed under the terms of the GNU General Public
+License version 2.
+
+
+The  Contrabutions Al Gratis , are MIT via Michael Lawrence Lonewolf Info systems. 
+for Gentoo Packaging of Jumpcloud agent items 
+GPL2 for Contributed portions. ie the Ebuild Code and etc. 
+
+
+Jumpcloud   Copyright & Licences as specified. on packages..
