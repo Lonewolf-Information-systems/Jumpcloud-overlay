@@ -17,7 +17,7 @@ if [[ ${PV} == *9999 ]] ; then
 fi
 
 if [[ ${PV} == *9999 ]] ; then
-	SRC_URI=""
+	SRC_URI="https://github.com/TheJumpCloud/jcapi-python/archive/1.1.1.tar.gz"
 	KEYWORDS=""
 else
 
@@ -27,7 +27,7 @@ EGIT_COMMIT"d550617b2c4de48f2efdb82c9199ee58d16e15a8"
 ## githash filter # d550617b2c4de48f2efdb82c9199ee58d16e15a8
 ## git path filter. https://github.com/TheJumpCloud/jcapi-python.git#subdirectory=jcapiv2
 ## dont care about 1.x , dont need whole tree. and not in a branch, 
-fi 
+fi
 
 LICENSE="Apache-2.0"
 SLOT="0"
