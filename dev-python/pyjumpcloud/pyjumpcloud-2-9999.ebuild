@@ -40,7 +40,8 @@ DEPEND="dev-python/certifi
 		dev-python/urllib3"
 RDEPEND="${DEPEND}"
 
+## fix ruby/python API as it is Split. 1.x/2.x 
 src_prepare() {
-	cp -r "${WORKDIR}/pyjumpcloud-${PV}/"* "${S}/pyjumpcloud/"
-	default
+mv  ${WORKDIR}/${PV}/jcapiv2/* ${WORKDIR}/${PV}/
+
 }
