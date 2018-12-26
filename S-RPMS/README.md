@@ -22,4 +22,4 @@ While I dont care as a Gentoo user (Core-OS , Sabayon, Funtoo , Chrome OS , othe
  
  
  https://github.com/anatol/gem2arch  can port the PKG to ARCH family .. 
- 
+ https://pypi.org/project/pypi2pkgbuild/  for Python. likewise.
