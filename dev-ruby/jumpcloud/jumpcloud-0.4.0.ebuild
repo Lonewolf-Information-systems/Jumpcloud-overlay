@@ -4,7 +4,7 @@ Close
 
 EAPI=6
 
-USE_RUBY="ruby24 ruby25"
+USE_RUBY="ruby23 ruby24 ruby25"
 
 RUBY_FAKEGEM_NAME="jumpcloud"
 
@@ -20,11 +20,17 @@ SLOT="0"
 IUSE=""
 KEYWORDS="amd64 ~ppc x86"
 
-ruby_add_rdepend "dev-ruby/libxml
-dev-ruby/http 
+## include BDEPS also K.I.S.S 
+ruby_add_rdepend "dev-ruby/http 
 dev-ruby/bundler
 dev-ruby/typhoeus
-dev-ruby/ruby_gntp"
+dev-ruby/json
+dev-ruby/ruby_gntp
+dev-ruby/rspec
+dev-ruby/webmock
+dev-ruby/vcr
+dev-ruby/zentest"
+#dev-ruby/zentest adds autotest-* etc..
 
 
 HOMEPAGE="https://github.com/TheJumpCloud/jumpcloud-ruby-gem"
