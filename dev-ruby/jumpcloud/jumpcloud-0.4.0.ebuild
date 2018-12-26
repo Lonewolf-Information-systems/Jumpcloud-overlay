@@ -4,7 +4,7 @@ Close
 
 EAPI=6
 
-USE_RUBY="ruby23 ruby24 ruby25 ruby26 ruby"
+USE_RUBY="ruby24 ruby25"
 
 RUBY_FAKEGEM_NAME="jumpcloud"
 
@@ -40,14 +40,9 @@ IUSE=""
 RESTRICT="test"
 
 
-src_prepare() {
-	cp -r "${WORKDIR}/pyjumpcloud-${PV}/"* "${S}/pyjumpcloud/"
-	default
-}
-
 ## fix ruby/python API as it is Split. 1.x/2.x 
 src_prepare() {
-mv  $CWD/jcapiv2/* $CWD/
+mv  ${WORKDIR}/${PV}/jcapiv2/* ${WORKDIR}/${PV}/
 
 }
 
