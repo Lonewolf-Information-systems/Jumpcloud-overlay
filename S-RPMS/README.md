@@ -11,6 +11,7 @@ this can be usefull as ebuilds are sligtly easier to me to do. however a one-off
 
 https://github.com/ascherer/debbuild can also make Debian Packages from the RPMSpecs. /debspecs. 
 
+
 While I dont care as a Gentoo user (Core-OS , Sabayon, Funtoo , Chrome OS , other Gentoo Cousins...) 
  @ home , in a Corp envior'o.. Centos/RH/debian/Ubuntoo  and Devs tend to care so I'll add whiles testing as a politeness. 
  
@@ -18,3 +19,7 @@ While I dont care as a Gentoo user (Core-OS , Sabayon, Funtoo , Chrome OS , othe
  etc without large cluster-hell.. 
  build my security packages , vault my keys etc.. less Admin hell when jumping from Arm64 server to IOT test , main server home AMD64  , gentoo-webhost-www/packages.... etc.. 
  Windows boxes without having Authentication hell.. or being able to deligate users accounts when and were needed to others. and cloud manage them.
+ 
+ 
+ https://github.com/anatol/gem2arch  can port the PKG to ARCH family .. 
+ 
